@@ -14,7 +14,7 @@ describe('Protractor practice website - Banking App', function() {
     var currency =  element(by.binding('currency'));
 
     beforeEach(function() {
-      browser.driver.manage().window().maximize();
+      // browser.driver.manage().window().maximize();
       browser.get('http://www.way2automation.com/angularjs-protractor/banking');
       browser.waitForAngular();
     });
