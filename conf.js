@@ -1,10 +1,9 @@
-var HtmlReporter = require('protractor-html-screenshot-reporter');
 
 exports.config = {
-  framework: 'jasmine2',
+  framework: 'jasmine',
   seleniumAddress: 'http://127.0.0.1:4444/wd/hub',
-  seleniumServerJar: "$APPDATA/npm/node_modules/protractor/selenium/selenium-server-standalone-2.52.0.jar",
-  specs: ['spec/*_spec.js'],
+//  specs: ['spec/way2automation_spec.js', 'spec/qualityshepherd_spec.js'],
+  specs: ['spec/qualityshepherd_spec.js'],
   capabilities: {
     browserName: 'chrome',
     shardTestFiles: true,
