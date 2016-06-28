@@ -1,0 +1,18 @@
+{
+  "name": "example-protractor",
+  "version": "1.0.0",
+  "description": "an example",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnishina/protractor-examples.git"
+  },
+  "author": "Craig Nishina <craig.nishina@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cnishina/protractor-examples/issues"
+  },
+  "homepage": "https://github.com/cnishina/protractor-examples#readme",
+  "dependencies": {
+    "protractor": "^3.2.2"
+  }
+}
